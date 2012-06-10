@@ -27,4 +27,21 @@ Test Yii installation
 
 http://laptop.yii.com/requirements/
 
+-----------------------------------------------------------------------
+
+Installed PEAR
+
+sudo apt-get install php-pear
+sudo pear upgrade-all
+sudo pear channel-discover pear.phpunit.de
+sudo pear install -a phpunit/PHPUnit
+
+
+-----------------------------------------------------------------------
+
+Created trackstar application
+
+felicio@felicio-laptop:~/projects/logbook/yii$ yiic webapp trackstar
+
+
 
