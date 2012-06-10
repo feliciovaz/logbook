@@ -73,4 +73,5 @@ felicio@felicio-laptop:~/projects/logbook/yii$ cat .gitignore
 
 Added ssh key from felicio-laptop (Ubuntu)
 
+Just a new line
 
