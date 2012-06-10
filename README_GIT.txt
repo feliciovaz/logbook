@@ -65,3 +65,9 @@ felicio@felicio-laptop:~/projects/logbook/yii$ cat .git/config
 	merge = refs/heads/master
 
 
+-----------------------------------------------------------------------
+
+Add recursevely all content of a directory
+
+> git add .
+
