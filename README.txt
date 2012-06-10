@@ -73,5 +73,19 @@ felicio@felicio-laptop:~/projects/logbook/yii$ cat .gitignore
 
 Added ssh key from felicio-laptop (Ubuntu)
 
-Just a new line
+Changed .git/config file in order to use ssh protocol instead of HTTPS (which requires to fill in the user and password every time we push)
+
+felicio@felicio-laptop:~/projects/logbook/yii$ cat .git/config 
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@github.com:feliciovaz/logbook.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+
 
