@@ -23,3 +23,8 @@ Yii 1.1 Application Development Cookbook - Alexander Makarov
 
 -----------------------------------------------------------------------
 
+Test Yii installation
+
+http://laptop.yii.com/requirements/
+
+
