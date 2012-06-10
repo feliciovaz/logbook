@@ -67,5 +67,10 @@ felicio@felicio-laptop:~/projects/logbook/yii$ git branch -a
 * master
   remotes/origin/master
 
+felicio@felicio-laptop:~/projects/logbook/yii$ cat .gitignore 
+.gitignore
+*.swp
+
+Added ssh key from felicio-laptop (Ubuntu)
 
 
