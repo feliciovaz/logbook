@@ -34,7 +34,12 @@ Installed PEAR
 sudo apt-get install php-pear
 sudo pear upgrade-all
 sudo pear channel-discover pear.phpunit.de
+sudo pear channel-discover pear.symfony-project.com
 sudo pear install -a phpunit/PHPUnit
+sudo apt-get install curl libcurl3 libcurl3-dev php5-curl
+sudo pear install phpunit/PHPUnit_Selenium
+
+
 
 
 -----------------------------------------------------------------------
@@ -42,6 +47,21 @@ sudo pear install -a phpunit/PHPUnit
 Created trackstar application
 
 felicio@felicio-laptop:~/projects/logbook/yii$ yiic webapp trackstar
+
+Added trackstart to /etc/apache2/httpd.conf
+<VirtualHost *:80>
+        DocumentRoot /home/felicio/projects/logbook/yii
+        ServerName trackstar.yii.com
+</VirtualHost>
+
+felicio@felicio-laptop:~/projects/logbook/yii$ sudo service apache2 restart
+ * Restarting web server apache2                                                 ... waiting                                                             [ OK ]
+
+
+Access the web application with:
+http://trackstar.yii.com/trackstar/index.php?r=site/login
+
+
 
 
 
